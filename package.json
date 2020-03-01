@@ -1,0 +1,23 @@
+{
+  "name": "test-travis",
+  "version": "1.0.0",
+  "description": "Testing out Travis CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencer-shadley/test-travis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencer-shadley/test-travis/issues"
+  },
+  "homepage": "https://github.com/spencer-shadley/test-travis#readme",
+  "dependencies": {
+    "eslint": "^6.8.0"
+  }
+}
