@@ -1,7 +1,7 @@
 'use strict';
 
-const add = require('../src/add');
-const subtract = require('../src/subtract');
+const add = require(`../src/add`);
+const subtract = require(`../src/subtract`);
 
 describe(`jest test`, () => {
   it(`add`, () => {
