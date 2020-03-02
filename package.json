@@ -4,9 +4,10 @@
   "description": "Testing out Travis CI",
   "main": "index.js",
   "scripts": {
-    "coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "lint": "eslint . ./**/*.js",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
