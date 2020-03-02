@@ -8,7 +8,7 @@ describe(`jest test`, () => {
     expect(add.add(1, 2)).toEqual(3);
   });
 
-  it(`subtract`, () => {
+  xit(`subtract`, () => {
     expect(subtract.subtract(1, 2)).toEqual(-1);
   });
 });
