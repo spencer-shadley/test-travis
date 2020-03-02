@@ -18,8 +18,10 @@
     "url": "https://github.com/spencer-shadley/test-travis/issues"
   },
   "homepage": "https://github.com/spencer-shadley/test-travis#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "eslint": "^6.8.0",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "eslint-plugin-chai-friendly": "^0.5.0"
   }
 }
